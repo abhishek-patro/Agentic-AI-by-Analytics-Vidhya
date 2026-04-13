@@ -1,0 +1,59 @@
+{
+    "orders": [
+        {
+            "order_id": 1001,
+            "customer": {
+                "name": "Alice Johnson",
+                "city": "New York"
+            },
+            "items": [
+                {
+                    "product": "Laptop",
+                    "price": 1200,
+                    "quantity": 1
+                },
+                {
+                    "product": "Mouse",
+                    "price": 25,
+                    "quantity": 2
+                }
+            ],
+            "status": "shipped"
+        },
+        {
+            "order_id": 1002,
+            "customer": {
+                "name": "Bob Smith",
+                "city": "Chicago"
+            },
+            "items": [
+                {
+                    "product": "Phone",
+                    "price": 800,
+                    "quantity": 1
+                },
+                {
+                    "product": "Headphones",
+                    "price": 150,
+                    "quantity": 1
+                }
+            ],
+            "status": "processing"
+        },
+        {
+            "order_id": 1003,
+            "customer": {
+                "name": "Carla Gomez",
+                "city": "San Francisco"
+            },
+            "items": [
+                {
+                    "product": "Tablet",
+                    "price": 600,
+                    "quantity": 1
+                }
+            ],
+            "status": "delivered"
+        }
+    ]
+}
